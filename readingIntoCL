@@ -6,3 +6,18 @@ int main()// C++ programs start by executing the function main
   std::cout << "Hello " << firstName << " \n";
   return 0;
 }
+
+
+/* ################################################ */
+
+
+int main()// C++ programs start by executing the function main
+{
+  std::cout << "please enter first name and age: \n ";// output “Hello, World!”
+  std::string firstName = "???";
+  int age = 0;
+  std::cin >> firstName >> age;
+
+  std::cout << "Hello, " << firstName << " Human of age: " << age << "\n";
+  return 0;
+}

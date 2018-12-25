@@ -39,7 +39,7 @@ int main()// C++ programs start by executing the function main
 }
 
 
-
+/* ################################################ */
 
 
 
@@ -54,5 +54,25 @@ int main()// C++ programs start by executing the function main
   std::cout<< "\nn/2 = " << n / 2 ;
   std::cout<< "\nn*n = " << n * n ;
   std::cout<< "\nsqrt(n) = " << sqrt(n) ;
+
+}
+
+
+
+int main()// C++ programs start by executing the function main
+{
+  int n = 0 ;
+  std::string previous = " ";
+  std::string current;
+  while (std::cin >> current){
+
+    if (previous == current){
+      std::cout << "the repeated word = " << previous;
+    }
+
+    previous = current;
+  }
+
+
 
 }

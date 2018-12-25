@@ -1,0 +1,8 @@
+int main()// C++ programs start by executing the function main
+{
+  std::cout << "please enter first name: \n ";// output “Hello, World!”
+  std::string firstName;
+  std::cin >> firstName;
+  std::cout << "Hello " << firstName << " \n";
+  return 0;
+}

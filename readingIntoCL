@@ -21,3 +21,24 @@ int main()// C++ programs start by executing the function main
   std::cout << "Hello, " << firstName << " Human of age: " << age << "\n";
   return 0;
 }
+
+
+
+/* ################################################ */
+
+
+
+
+int main()// C++ programs start by executing the function main
+{
+  int n = 0 ;
+  std::cout << "write a value for n";
+  std::cin >> n;
+  std::cout<< "n==" << n;
+  std::cout<< "\nn+1 = " << n + 1 ;
+  std::cout<< "\nn*2 = " << n * 2 ;
+  std::cout<< "\nn/2 = " << n / 2 ;
+  std::cout<< "\nn*n = " << n * n ;
+  std::cout<< "\nsqrt(n) = " << sqrt(n) ;
+
+}

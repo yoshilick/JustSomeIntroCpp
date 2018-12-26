@@ -1,0 +1,53 @@
+int main()// C++ programs start by executing the function main
+{
+
+
+  std::cout << "Enter the name of the person you want to write to: ";
+  std::string first_name, friend_name;
+  char friend_sex {0};
+  int age;
+
+
+  std::cin >> first_name;
+  std::cout << "\nEnter the name of the other person ";
+  std::cin >> friend_name;
+
+  std::cout << "Enter the sex of your friend, " + friend_name << " Using m or f";
+  std::cin >> friend_sex;
+
+
+
+
+  std::cout << "Dear " << first_name + ",";
+  std::cout << "\n  How are you? I am fine. I miss you";
+  std::cout << "\n  Have you seen our friend " + friend_name + " lately?";
+
+  if(friend_sex=='m'){
+    std::cout << "\n  if you see " + friend_name + " ask him to call me!";
+
+  }
+  if(friend_sex=='f'){
+    std::cout << "\n  if you see " + friend_name + " ask her to call me!";
+
+  }
+
+  std::cout << "\nI hear you just had a birthday, how old did you turn?";
+  std::cin >> age;
+
+  if(age>110||age<1){
+    std::cout << "\nThat's impossible!";
+  }
+
+  if(age<12){
+    std::cout << "\n Next year you'll be " << (age + 1) << "!" ;
+  }
+  if(age==17){
+    std::cout << "\n Next year you'll be able to vote!";
+  }
+  if(age>70){
+    std::cout << "\n I hope you're enjoying retirement!";
+  }
+
+  std::cout << "\n Yours Sincerely, " << "\n\n";
+
+  std::cout << " Ale R H  " << "\n\n\n\n";

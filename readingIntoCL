@@ -76,3 +76,29 @@ int main()// C++ programs start by executing the function main
 
 
 }
+
+
+/* ######################################################### */ 
+
+
+int main()// C++ programs start by executing the function main
+{
+  int n = 0 ;
+  int numberOfWords = 0;
+
+  std::string previous = " ";
+  std::string current;
+
+  while (std::cin >> current){
+    ++numberOfWords;
+
+    if (previous == current){
+      std::cout << "the repeated word = " << previous << "\n And the number of words = " << numberOfWords;
+    }
+
+    previous = current;
+  }
+
+
+
+}

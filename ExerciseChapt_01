@@ -51,3 +51,46 @@ int main()// C++ programs start by executing the function main
   std::cout << "\n Yours Sincerely, " << "\n\n";
 
   std::cout << " Ale R H  " << "\n\n\n\n";
+
+
+
+
+/* ############################# */ 
+
+int main()// C++ programs start by executing the function main
+{
+
+    bool endIt=true;
+    std::string dummy="??";
+    while(endIt){
+        std::cout << "please type in your numbers, type finished to exit";
+        std::cin >> dummy;
+
+
+
+        if (dummy == "zero"){
+            std::cout << "0";
+        }
+        if (dummy == "one"){
+            std::cout << "1";
+        }
+        if (dummy == "two"){
+            std::cout << "2";
+        }
+        if (dummy == "three"){
+            std::cout << "3";
+        }
+        if (dummy == "four"){
+            std::cout << "4";
+        }
+        if (dummy == "finished"){
+            endIt= false;
+        }
+
+    }
+
+
+return 0;
+
+
+}
